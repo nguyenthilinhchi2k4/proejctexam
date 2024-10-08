@@ -1,11 +1,11 @@
-﻿using DMAWS_T2305M_PhamDangTung.Models;
+﻿using DMAWS_T2309m_NguyenThiLinhChi.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DMAWS_T2305M_PhamDangTung.Controllers
+namespace DMAWS_T2309m_NguyenThiLinhChi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
