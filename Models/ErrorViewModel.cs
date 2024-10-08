@@ -1,4 +1,4 @@
-namespace DMAWS_T2305M_PhamDangTung.Models
+namespace  DMAWS_T2309m_NguyenThiLinhChi.Models
 {
     public class ErrorViewModel
     {
