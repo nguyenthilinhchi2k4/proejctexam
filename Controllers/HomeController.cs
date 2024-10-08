@@ -1,8 +1,8 @@
-using DMAWS_T2305M_PhamDangTung.Models;
+using  DMAWS_T2309m_NguyenThiLinhChi.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace DMAWS_T2305M_PhamDangTung.Controllers
+namespace  DMAWS_T2309m_NguyenThiLinhChi.Controllers
 {
     public class HomeController : Controller
     {
