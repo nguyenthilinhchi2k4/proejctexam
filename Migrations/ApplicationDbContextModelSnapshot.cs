@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace DMAWS_T2305M_PhamDangTung.Migrations
+namespace  DMAWS_T2309m_NguyenThiLinhChi.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -22,7 +22,7 @@ namespace DMAWS_T2305M_PhamDangTung.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("DMAWS_T2305M_PhamDangTung.Models.Employee", b =>
+            modelBuilder.Entity(" DMAWS_T2309m_NguyenThiLinhChi.Models.Employee", b =>
                 {
                     b.Property<int>("EmployeeId")
                         .ValueGeneratedOnAdd()
