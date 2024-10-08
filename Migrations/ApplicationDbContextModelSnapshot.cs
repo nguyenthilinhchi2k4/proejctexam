@@ -46,7 +46,7 @@ namespace  DMAWS_T2309m_NguyenThiLinhChi.Migrations
                     b.ToTable("Employees");
                 });
 
-            modelBuilder.Entity("DMAWS_T2305M_PhamDangTung.Models.Project", b =>
+            modelBuilder.Entity(" DMAWS_T2309m_NguyenThiLinhChi.Project", b =>
                 {
                     b.Property<int>("ProjectId")
                         .ValueGeneratedOnAdd()
@@ -69,7 +69,7 @@ namespace  DMAWS_T2309m_NguyenThiLinhChi.Migrations
                     b.ToTable("Projects");
                 });
 
-            modelBuilder.Entity("DMAWS_T2305M_PhamDangTung.Models.ProjectEmployee", b =>
+            modelBuilder.Entity( DMAWS_T2309m_NguyenThiLinhChi.Models.ProjectEmployee", b =>
                 {
                     b.Property<int>("EmployeeId")
                         .HasColumnType("int");
@@ -88,15 +88,15 @@ namespace  DMAWS_T2309m_NguyenThiLinhChi.Migrations
                     b.ToTable("ProjectEmployees");
                 });
 
-            modelBuilder.Entity("DMAWS_T2305M_PhamDangTung.Models.ProjectEmployee", b =>
+            modelBuilder.Entity(" DMAWS_T2309m_NguyenThiLinhChi.Models.ProjectEmployee", b =>
                 {
-                    b.HasOne("DMAWS_T2305M_PhamDangTung.Models.Employee", "Employees")
+                    b.HasOne(" DMAWS_T2309m_NguyenThiLinhChi.Models.Employee", "Employees")
                         .WithMany("ProjectEmployees")
                         .HasForeignKey("EmployeeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("DMAWS_T2305M_PhamDangTung.Models.Project", "Projects")
+                    b.HasOne(" DMAWS_T2309m_NguyenThiLinhChi.Project", "Projects")
                         .WithMany("ProjectEmployees")
                         .HasForeignKey("ProjectId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -107,12 +107,12 @@ namespace  DMAWS_T2309m_NguyenThiLinhChi.Migrations
                     b.Navigation("Projects");
                 });
 
-            modelBuilder.Entity("DMAWS_T2305M_PhamDangTung.Models.Employee", b =>
+            modelBuilder.Entity(" DMAWS_T2309m_NguyenThiLinhChi.Models.Employee", b =>
                 {
                     b.Navigation("ProjectEmployees");
                 });
 
-            modelBuilder.Entity("DMAWS_T2305M_PhamDangTung.Models.Project", b =>
+            modelBuilder.Entity(" DMAWS_T2309m_NguyenThiLinhChi.Models.Project", b =>
                 {
                     b.Navigation("ProjectEmployees");
                 });
